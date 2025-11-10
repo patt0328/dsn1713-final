@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+$body-bg: rgb(255, 255, 229);
+
+$primary: pink;
+$secondary: rgb(207, 58, 103);
+$dark: rgb(60, 11, 11);
+$light: rgb(255,255,229);
+
+$font-family-sans-serif: "Bodoni Moda";
+$headings-font-family:"Chocolate Classical Sans";
+
+.navbar {
+    font-family: "Chocolate Classical Sans", sans-serif;
+    color: rgb(60, 11, 11);
+  }
+  
+$h1-font-size: 1rem * 8;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+
+
+$line-height-base: 1.6;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
