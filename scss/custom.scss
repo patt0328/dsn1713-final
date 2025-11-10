@@ -20,8 +20,21 @@ $h1-font-size: 1rem * 8;
 $h2-font-size: 1rem * 2;
 $h3-font-size: 1rem * 1.75;
 
-
 $line-height-base: 1.6;
+
+
+
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+#hero {
+    height: 800px;
+    background-color: #E4E6DB;
+    background-image:url(../Images/cupcake-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

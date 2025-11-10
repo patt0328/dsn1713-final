@@ -11867,5 +11867,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+#hero {
+  height: 800px;
+  background-color: #E4E6DB;
+  background-image: url(../Images/cupcake-1.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 /*# sourceMappingURL=custom.css.map */
