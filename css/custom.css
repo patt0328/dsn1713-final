@@ -11901,4 +11901,8 @@ textarea.form-control-lg {
   background-color: var(--bs-primary);
 }
 
+#search {
+  background-image: url(/Images/cupcake-1.webp);
+}
+
 /*# sourceMappingURL=custom.css.map */
