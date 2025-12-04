@@ -11,6 +11,14 @@
   justify-content: space-evenly;
 }
 
+#hero {
+  height: 800px;
+  background-color: #E4E6DB;
+  background-image:url(/Images/cupcake-4.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
