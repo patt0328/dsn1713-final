@@ -11880,6 +11880,10 @@ textarea.form-control-lg {
   background-size: cover;
 }
 
+h1, .h1 {
+  text-shadow: 2px 2px 5px rgb(118, 76, 22);
+}
+
 #hero .d-flex {
   height: 800px;
 }
@@ -11903,6 +11907,10 @@ textarea.form-control-lg {
 
 #search {
   background-image: url(/Images/cupcake-1.webp);
+}
+
+button:hover {
+  background-color: pink;
 }
 
 /*# sourceMappingURL=custom.css.map */
