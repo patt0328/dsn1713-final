@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toronto cupcake</title>
 <link rel="stylesheet" href="css/custom.css">
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
@@ -20,7 +24,7 @@
                 <a class="nav-link active text-dark" aria-current="page" href="product.html">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-dark" href="profile.html">Profile</a>
+                <a class="nav-link text-dark" href="#">Profile</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-dark" href="about.html">About</a>
@@ -35,12 +39,13 @@
 <main>
     <section id="hero">
         <div class="container"> 
-          <div class="d-flex justify-content-center
+          <div class="d-flex
           text-center">
-            <div class="text-light">
+            <div class="text-dark mt-5">
               <h1>Best Cupcakes in Toronto</h1>
               <h5>Handcrafted cupcakes made fresh daily with premium ingredients, bringing joy and sweetness to your moments.</h5>
-              <button type="button" class="btn btn-dark">Order Now!</button>
+              <button type="button" class="btn btn-dark animate__animated animate__heartBeat">Order Now!</button>
+            </div>
             </div>
           </div>
         </div>
@@ -53,7 +58,7 @@
        
        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed enim lorem, efficitur id tempor sit amet, aliquam vel neque. Nam laoreet rhoncus eros. Quisque tincidunt tortor ante, sit amet interdum sapien egestas vel. Fusce molestie tristique tortor molestie cursus. </p>
       </div>
-      <div class="col-12 col-md-4 d-flex ms-auto">
+      <div class="col-12 col-md-4 d-flex ms-auto " style="width: 750px;">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -84,47 +89,53 @@
     </div>
 </section>
 
-<section id="cards">
-  <div class="container-fluid text-center bg-primary mt-5">
-    <h2>What We do</h2>
-    <div class="row justify-content-center g-4 mb-5">
-      <div class="col-12 col-md-4 d-flex">
-        <div class="card w-100 text-center" style="width: 25rem;">
-          <img src="Images/Bestsellers-Image.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Custom Cupcakes</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="#" class="btn btn-dark">Order</a>
+<section id="reviews">
+  <div class="container text-center">
+    <div>
+      <h2>What Our Customers Are Saying</h2>
+
+      <div class="row">
+        <div class="col-12 col-md-4 mb-4">
+          <figure>
+            <div class="card" style="width: 18rem;">
+              <img src="Images/cupcake-2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Special</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/cupcake-1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"> corperate events</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-12 col-md-4 d-flex">
-        <div class="card w-100 text-center" style="width: 25rem;">
-          <img src="Images/Occasions.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Coorperate events</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="#" class="btn btn-dark">Order</a>
+        <div class="col-12 col-md-4 mb-4">
+          <div class="card" style="width: 18rem;">
+            <img src="Images/cupcake-3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Custom</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
           </div>
         </div>
+        
       </div>
-      <div class="col-12 col-md-4 d-flex">
-        <div class="card w-100 text-center" style="width: 25rem;">
-          <img src="Images/Custom-Box.webp" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Holiday Cupcakes</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-            <a href="#" class="btn btn-dark">Order</a>
-          </div>
-        </div>
-      </div>
+
     </div>
   </div>
 </section>
 
 </main>
 
-<footer class="text-center"><img src="Images/transparent-TO-logo.webp" width="50px" alt=""> <p class="text-center">©2025 - Toronto Cupcake  |   All right reserved</p></footer>
+<footer class="text-center bg-white mt-5"><img src="Images/transparent-TO-logo.webp" width="50px" alt=""> <p class="text-center">©2025 - Toronto Cupcake  |   All right reserved</p></footer>
 
       
 </body>

@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 
-$body-bg: rgb(255, 255, 229);
+$body-bg: rgb(254, 254, 242);
 
 $primary: pink;
 $secondary: rgb(207, 58, 103);
 $dark: rgb(60, 11, 11);
-$light: rgb(255,255,229);
+$light: rgb(255, 255, 240);
+$success: rgb(246, 210, 216);
 
-$font-family-sans-serif: "Bodoni Moda";
+$font-family-serif: "Bodoni Moda";
 $headings-font-family:"Chocolate Classical Sans";
 
 .navbar {
@@ -28,27 +29,35 @@ $line-height-base: 1.6;
 }
 
 
-
 @import "../node_modules/bootstrap/scss/bootstrap";
 
-
 #hero {
-    height: 800px;
-    background-color: #E4E6DB;
-    background-image:url(../Images/cupcake-1.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 800px;
+  background-color: #E4E6DB;
+  background-image:url(/Images/cupcake-4.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-
-h1{
- 
-    text-shadow: 2px 2px 4px #000000;
- 
+#hero .d-flex {
+  height: 800px;
 }
 
 .accordion-button:not(.collapsed) {
-  color: white; /* arrow and text when expanded */
+  color: rgb(7, 7, 7); 
 }
 
+.card{
+  box-shadow: 2px 2px 5px black;
+}
+
+#reviews{
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+
+}
+
+#faq{
+  background-color: var(--bs-primary);
+}
