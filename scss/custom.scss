@@ -35,11 +35,12 @@ $line-height-base: 1.6;
 #hero {
   height: 800px;
   background-color: #E4E6DB;
-  background-image:url(/Images/cupcake-4.webp);
+  background-image:url(../Images/cupcake-4.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
+
 h1{
   text-shadow: 2px 2px 5px rgb(118, 76, 22);
 }
