@@ -1,6 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 .navbar {
   font-family: "Chocolate Classical Sans", sans-serif;
   color: rgb(60, 11, 11);
